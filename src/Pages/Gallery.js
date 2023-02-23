@@ -5,7 +5,7 @@ import '../css/Gallery.css'
 const Gallery = () => {
 
     let [dataFoto, setDatafoto] = useState([
-        {thumb: "Sisili Fistiv Music Concert Poster", hadeh: 'https://drive.google.com/uc?export=view&id=1d-KBd1QHufiJI-HCkV7TSYvJfqZmaHKC', desc:"Sisili Fistiv is a fictional music concert that will be held in Sicily, Italy", link:'https://www.behance.net/gallery/153816883/Sisili-Fistiv'},
+        {thumb: "Sisili Fistiv Music Concert Poster", hadeh: 'https://drive.google.com/uc?export=view&id=1d-KBdlQHufiJI-HCkV7TSYvJfqZmaHKC', desc:"Sisili Fistiv is a fictional music concert that will be held in Sicily, Italy", link:'https://www.behance.net/gallery/153816883/Sisili-Fistiv'},
         {thumb: "Tempo Gelato", hadeh:'https://drive.google.com/uc?export=view&id=1f8cwrJ1gkh3pmDwv35Qd776lSJX8ZPlO', desc:"This is actually the part of my booklet 'Jogja', that is available in my Behance(Click here)", link:'https://www.behance.net/gallery/153185579/Jogja'},
         {thumb: "IG Story for Climate Action Discussion Space from AIESEC in Bandung", hadeh: 'https://drive.google.com/uc?export=view&id=1gmOy_eOCU9KxB19UPEGOx7eBzD7yMWh9', desc: "This was supposed to be a poll post and engaged by +5000 accs" },
         {thumb: "IG Feed for Impact Circle Campaign from AIESEC in Bandung", hadeh: 'https://drive.google.com/uc?export=view&id=1WL_wkbywbaByBUngQ8PCV6mHbP4CCtVJ', desc: "Succesfully reach 13,351 accounts and shared for more than 70 times."},
