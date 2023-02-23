@@ -1,0 +1,93 @@
+*{
+    background-color: #f4f4f5;
+}
+
+.Nama{
+    -webkit-text-stroke: 0.5px #57534e;
+    color: transparent;
+}
+
+.futu{
+    margin-left: 60%;
+    width: 30%;
+}
+
+.desc{
+    margin-right: 35%;
+    padding-bottom: 7%;
+    margin-top: -30%;
+    margin-left: 5%;
+}
+
+.desc p{
+    padding: 3%;
+    text-indent: 4%;
+}
+
+.wn{
+    margin-right: 35%;
+    padding-bottom: 7%;
+    margin-top: -2%;
+    margin-left: 55%;
+}
+
+.rectangle{
+    margin-top: -5%;
+    height: 200px;
+    width: screen;
+    background-color: #037ef3;
+}
+
+.aysek{
+    background-color: #037ef3;
+    padding: 4%;
+}
+
+.aysek img{
+    padding: 0%;
+    width: 18%;
+}
+
+.jcc{
+    background-color: #2f9a64;
+    padding: 4%;
+}
+
+.jcc img{
+    margin-top: 5%;
+    padding-bottom: 6%;
+}
+
+.brin{
+    padding: 4%;
+    color: #e84440;
+    background-color: white;
+}
+
+.kontak{
+    padding: 4%;
+}
+
+.HH{
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 1%;
+    margin-top: -13%;
+    margin-bottom: 9%;
+}
+
+.emel{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -13%;
+    margin-left: 1%;
+    margin-bottom: 9%;
+}
+
+.hp{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -8%;
+    margin-left: 1%;
+    margin-bottom: 6%;
+}

@@ -1,0 +1,58 @@
+@media (max-width: 480px) {
+    *{
+        width: 100%;
+    }
+
+    .Ph{
+        padding-top: 120%;
+    }
+
+    .Fe{
+        padding-top: 180%;
+    }
+}
+
+@media (max-width: 766px) {
+    *{
+        width: 100%;
+    }
+
+    .Ph{
+        padding-top: 120%;
+    }
+
+    .Fe{
+        padding-top: 180%;
+    }
+}
+
+@media (max-width: 1280px) {
+    *{
+        width: 100%;
+    }
+
+    .Ph{
+        padding-top: 120%;
+    }
+
+    .Fe{
+        padding-top: 180%;
+    }
+}
+
+.desc:before{
+    content: attr(data-hover);
+    visibility: hidden;
+}
+
+.desc:hover:before{
+    visibility: visible;
+}
+
+.sc{
+    display: none;
+}
+
+.dsin:hover + .sc{
+    display: block;
+}
