@@ -1,10 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 import '../css/About.css'
 
 const About = () => {
     return(
         <>
+        <div>
+                <Helmet>
+                    <title>
+                        About | Hendi Haryadi
+                    </title>
+                </Helmet>
+        </div>
         <div class = "ktkt">
         <div class = "font-grotesk font-bold text-6xl pt-20 pl-20 dark:text-stone-600">
             Hello!
@@ -21,7 +29,7 @@ const About = () => {
             <img src = "https://drive.google.com/uc?export=view&id=1NCtL04j-WI9cDtGvNWMRmuj6UTOwUSZs"/>
         </div>
         <div class = "desc font-serif font-bold text-5xl text-right z-10 dark:text-stone-600">
-            <p><span class = "bg-lime-400 break-words">Bachelor Degree in Physics experienced with Social Media Content, Fullstack Developer, and R&D.</span></p>
+            <p><span class = "bg-lime-400 break-words">Bachelor Degree in Physics experienced with Social Media Specialist, Fullstack Developer, and R&D <span><br></br>&#40;Database Administrator at the moment&#41;.</span></span></p>
         </div>
         <div class = "wn text-lime-400 bg-transparent font-grotesk font-bold text-8xl z-10">
             Why not?

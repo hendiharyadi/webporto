@@ -1,5 +1,6 @@
 import { React, useState } from "react";
 import { Link } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 import '../css/Gallery.css'
 
 const Gallery = () => {
@@ -17,6 +18,13 @@ const Gallery = () => {
 
     return (
         <>
+        <div>
+                <Helmet>
+                    <title>
+                        Gallery | Hendi Haryadi
+                    </title>
+                </Helmet>
+        </div>
         <main class="dark:bg-zinc-100">
             <div class="top"> 
             </div>
@@ -28,7 +36,7 @@ const Gallery = () => {
             </div>
             <div id="container" class="midel"> 
             <h2 class="font-grotesk font-bold text-4xl sm:text-4xl flex items-center justify-center absolute inset-x-0 bottom-0 pt-10 pb-10  dark:text-stone-600 text-gray-800">
-                Click&nbsp;<a href = "#container" class="hover:text-lime-400">here</a>&nbsp;for the works
+                Click&nbsp;<a href = "#container" class="hover:text-lime-400">here</a>&nbsp;for the works <span class = "text-base"> &nbsp;&nbsp;&nbsp;&#40;hover object for further information&#41;</span>
             </h2>
             </div>  
             <div class="dis">

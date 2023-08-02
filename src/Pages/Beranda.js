@@ -1,10 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 import '../css/Beranda.css'
 
 const Beranda = () => {
     return (
-        <>         
+        <>  
+            <div>
+                <Helmet>
+                    <title>
+                        Home | Hendi Haryadi
+                    </title>
+                </Helmet>
+            </div>     
             <main class="dark:bg-zinc-100 h-screen">
                 <div class="mx-auto pt-32">
                 </div>
@@ -13,7 +21,6 @@ const Beranda = () => {
                             <div class="Gd">
                             <Link to = "/gallery">
                             <div class="dsin hover:text-lime-400">Graphic Design</div>
-                            <div class = "sc font-serif pt-4 pl-1 text-1x1 sm:text-3x1 dark:text-stone-400">Social Media Content</div>
                             </Link>
                             </div>
                             </div>
@@ -21,7 +28,6 @@ const Beranda = () => {
                             <div class="font-grotesk font-bold text-5xl sm:text-5xl pl-28 dark:text-stone-500 pt-40">
                             <a href="https://vsco.co/hndhryd/gallery" target="_blank">
                             <div class="dsin hover:text-lime-400">Photography</div>
-                            <div class = "sc font-serif pt-4 text-3x1 sm:text-1x1 dark:text-stone-400">with VSCO</div>
                             </a>
                             </div>
                             </div>
