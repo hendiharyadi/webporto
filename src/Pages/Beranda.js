@@ -32,9 +32,9 @@ const Beranda = () => {
                             </div>
                             </div>
                             <div className="Fe">
-                            <div class="font-grotesk font-bold text-3xl sm:text-3xl pl-2 dark:text-stone-400 pt-44">
+                            <div class="font-grotesk font-bold text-3xl sm:text-7xl dark:text-stone-400 pt-36">
                             <Link to = "/webdev">
-                            <div class="hover:text-lime-400">WebDevProject <span class = 'bg-lime-400 text-stone-600'>Under Construction</span></div>
+                            <div class="hover:text-lime-400">WebDevProject {/*<span class = 'bg-lime-400 text-stone-600'>Under Construction</span>*/}</div>
                             </Link>
                             </div>
                             </div>
